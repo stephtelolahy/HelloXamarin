@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Foundation;
 using UIKit;
 
@@ -6,9 +7,12 @@ namespace Phoneword_iOS
 {
 	public partial class ViewController : UIViewController
 	{
+		public List<String> PhoneNumbers { get; set; }
+
 		protected ViewController(IntPtr handle) : base(handle)
 		{
-			// Note: this .ctor should not contain any initialization logic.
+			//initialize list of phone numbers called for Call History screen
+			PhoneNumbers = new List<String>();
 		}
 
 		public override void ViewDidLoad()
@@ -22,6 +26,9 @@ namespace Phoneword_iOS
 				// Convert the phone number with text to a number
 				// using PhoneTranslator.cs
 				translatedNumber = PhoneTranslator.ToNumber(PhoneNumberText.Text);
+
+				//Store the phone number that we're dialing in PhoneNumbers
+				PhoneNumbers.Add(translatedNumber);
 
 				// Dismiss the keyboard if text field was tapped
 				PhoneNumberText.ResignFirstResponder();
@@ -52,6 +59,17 @@ namespace Phoneword_iOS
 					PresentViewController(alert, true, null);
 				}
 			};
+
+			CallHistoryButton.TouchUpInside += (object sender, EventArgs e) =>
+			{
+				// Launches a new instance of CallHistoryController
+				CallHistoryController callHistory = this.Storyboard.InstantiateViewController("CallHistoryController") as CallHistoryController;
+				if (callHistory != null)
+				{
+					callHistory.PhoneNumbers = PhoneNumbers;
+					this.NavigationController.PushViewController(callHistory, true);
+				}
+			};
 		}
 
 		public override void DidReceiveMemoryWarning()
@@ -59,5 +77,28 @@ namespace Phoneword_iOS
 			base.DidReceiveMemoryWarning();
 			// Release any cached data, images, etc that aren't in use.
 		}
+
+		public override bool ShouldPerformSegue(string segueIdentifier, NSObject sender)
+		{
+			return false;
+		}
+
+		//public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+		//{
+		//	base.PrepareForSegue(segue, sender);
+
+		//	// set the View Controller that’s powering the screen we’re
+		//	// transitioning to
+
+		//	var callHistoryContoller = segue.DestinationViewController as CallHistoryController;
+
+		//	//set the Table View Controller’s list of phone numbers to the
+		//	// list of dialed phone numbers
+
+		//	if (callHistoryContoller != null)
+		//	{
+		//		callHistoryContoller.PhoneNumbers = PhoneNumbers;
+		//	}
+		//}
 	}
 }
