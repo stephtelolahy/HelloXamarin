@@ -6,20 +6,24 @@ using Android.Content;
 
 namespace PhoneWord_Android
 {
-	[Activity(Label = "Phone Word", MainLauncher = true)]
+	[Activity(Label = "PhoneWord", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
+
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
+
+			Toast.MakeText(this, "Hello", ToastLength.Long).Show();
+				
 
 			// Set our view from the "main" layout resource
 			SetContentView(Resource.Layout.Main);
 
 			// Get our UI controls from the loaded layout:
-			EditText phoneNumberText = FindViewById<EditText>(Resource.Id.phoneNumberText);
-			Button translateButton = FindViewById<Button>(Resource.Id.translateButton);
-			Button callButton = FindViewById<Button>(Resource.Id.callButton);
+			EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
+			Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
+			Button callButton = FindViewById<Button>(Resource.Id.CallButton);
 
 			Console.WriteLine("phoneNumberText :" + phoneNumberText);
 			Console.WriteLine("translateButton :" + translateButton);

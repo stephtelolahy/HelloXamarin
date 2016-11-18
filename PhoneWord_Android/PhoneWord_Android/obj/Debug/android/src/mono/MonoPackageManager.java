@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "PhoneWord_Android.dll" comes first in this list. */
 		"PhoneWord_Android.dll",
 		"System.Runtime.dll",
+		"nunit.framework.dll",
 		"System.Threading.dll",
 		"System.Collections.dll",
 		"System.Collections.Concurrent.dll",
@@ -109,6 +110,13 @@ class MonoPackageManager_Resources {
 		"System.Runtime.InteropServices.dll",
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
+		"System.Threading.Tasks.dll",
+		"System.Globalization.dll",
+		"System.IO.dll",
+		"System.Text.Encoding.dll",
+		"System.Text.RegularExpressions.dll",
+		"System.Xml.ReaderWriter.dll",
+		"System.Xml.XDocument.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

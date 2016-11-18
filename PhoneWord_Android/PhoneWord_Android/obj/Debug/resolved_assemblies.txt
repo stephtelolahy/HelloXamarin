@@ -5,6 +5,7 @@
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/Java.Interop.dll
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Runtime.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/nunit.framework.dll
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/mscorlib.dll
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Net.Http.dll
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Runtime.Serialization.dll
@@ -19,3 +20,11 @@
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Runtime.Extensions.dll
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.ComponentModel.Composition.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Threading.Tasks.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Globalization.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.IO.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Text.RegularExpressions.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Xml.ReaderWriter.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Xml.XDocument.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/assets/System.Xml.Linq.dll

@@ -15,3 +15,4 @@
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/uploadflags.txt
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/PhoneWord_Android.dll
 /Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/PhoneWord_Android.dll.mdb
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/bin/Debug/nunit.framework.dll
