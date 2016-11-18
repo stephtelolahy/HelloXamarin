@@ -14,11 +14,8 @@ namespace PhoneWord_Android
 		{
 			base.OnCreate(savedInstanceState);
 
-			Toast.MakeText(this, "Hello", ToastLength.Long).Show();
-				
-
 			// Set our view from the "main" layout resource
-			SetContentView(Resource.Layout.Main);
+			this.SetContentView(Resource.Layout.Main);
 
 			// Get our UI controls from the loaded layout:
 			EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
@@ -38,7 +35,7 @@ namespace PhoneWord_Android
 			translateButton.Click += (object sender, EventArgs e) =>
 			{
 				// Translate user's alphanumeric phone number to numeric
-				translatedNumber = PhonewordTranslator.ToNumber(phoneNumberText.Text);
+				translatedNumber = Core.PhonewordTranslator.ToNumber(phoneNumberText.Text);
 				if (String.IsNullOrWhiteSpace(translatedNumber))
 				{
 					callButton.Text = "Call";

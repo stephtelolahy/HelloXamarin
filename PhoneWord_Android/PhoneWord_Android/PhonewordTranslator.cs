@@ -1,7 +1,7 @@
 ﻿using System;
 using Java.Lang;
 
-namespace PhoneWord_Android
+namespace Core
 {
 	public static class PhonewordTranslator
 	{
