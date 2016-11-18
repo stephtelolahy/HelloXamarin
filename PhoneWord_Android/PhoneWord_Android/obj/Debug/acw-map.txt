@@ -1,0 +1,4 @@
+PhoneWord_Android.MainActivity, PhoneWord_Android;md5c3b6d9f76dbf81fd72ac0bec739e13c4.MainActivity
+PhoneWord_Android.MainActivity, PhoneWord_Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c3b6d9f76dbf81fd72ac0bec739e13c4.MainActivity
+PhoneWord_Android.MainActivity;md5c3b6d9f76dbf81fd72ac0bec739e13c4.MainActivity
+phoneword_android.MainActivity;md5c3b6d9f76dbf81fd72ac0bec739e13c4.MainActivity

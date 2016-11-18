@@ -1,0 +1,17 @@
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/bin/Debug/PhoneWord_Android.dll.mdb
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/bin/Debug/PhoneWord_Android.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/bin/Debug/com.companyname.phoneword.apk
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/android/bin/com.companyname.phoneword.apk
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/res/layout/main.xml
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/res/values/strings.xml
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/res/mipmap-hdpi/icon.png
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/res/mipmap-mdpi/icon.png
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/res/mipmap-xhdpi/icon.png
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/res/mipmap-xxhdpi/icon.png
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/R.cs.flag
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/bin/Debug/com.companyname.phoneword-Signed.apk
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/uploadflags.txt
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/PhoneWord_Android.dll
+/Users/stephanotelolahy/Desktop/XamarinProjects/PhoneWord_Android/PhoneWord_Android/obj/Debug/PhoneWord_Android.dll.mdb
