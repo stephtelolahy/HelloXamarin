@@ -2,4 +2,5 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">PhoneWord</string>
+	<string name="call_history">Call History</string>
 </resources>

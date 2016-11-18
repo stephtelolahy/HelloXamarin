@@ -3,12 +3,14 @@ using Android.Widget;
 using Android.OS;
 using System;
 using Android.Content;
+using System.Collections.Generic;
 
 namespace PhoneWord_Android
 {
 	[Activity(Label = "PhoneWord", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
+		static readonly List<string> phoneNumbers = new List<string>();
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -21,6 +23,7 @@ namespace PhoneWord_Android
 			EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
 			Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
 			Button callButton = FindViewById<Button>(Resource.Id.CallButton);
+			Button callHistoryButton = FindViewById<Button>(Resource.Id.CallHistoryButton);
 
 			Console.WriteLine("phoneNumberText :" + phoneNumberText);
 			Console.WriteLine("translateButton :" + translateButton);
@@ -55,6 +58,10 @@ namespace PhoneWord_Android
 				callDialog.SetMessage("Call " + translatedNumber + "?");
 				callDialog.SetNeutralButton("Call", delegate
 				{
+					// add dialed number to list of called numbers.
+					phoneNumbers.Add(translatedNumber);
+					// enable the Call History button
+					callHistoryButton.Enabled = true;
 					// Create intent to dial phone
 					var callIntent = new Intent(Intent.ActionCall);
 					callIntent.SetData(Android.Net.Uri.Parse("tel:" + translatedNumber));
@@ -64,6 +71,13 @@ namespace PhoneWord_Android
 
 				// Show the alert dialog to the user and wait for response.
 				callDialog.Show();
+			};
+
+			callHistoryButton.Click += (sender, e) =>
+			{
+				var intent = new Intent(this, typeof(CallHistoryActivity));
+				intent.PutStringArrayListExtra("phone_numbers", phoneNumbers);
+				StartActivity(intent);
 			};
 		}
 	}
