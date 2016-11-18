@@ -2,9 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.phoneword">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
-    <activity android:icon="@mipmap/icon" android:label="PhoneWord" android:name="md5c3b6d9f76dbf81fd72ac0bec739e13c4.MainActivity">
+    <activity android:label="Phone Word" android:name="md5c3b6d9f76dbf81fd72ac0bec739e13c4.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

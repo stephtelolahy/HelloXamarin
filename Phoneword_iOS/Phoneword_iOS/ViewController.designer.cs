@@ -16,7 +16,7 @@ namespace Phoneword_iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton CallButton { get; set; }
+        UIKit.UIButton callButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -32,9 +32,9 @@ namespace Phoneword_iOS
 
         void ReleaseDesignerOutlets ()
         {
-            if (CallButton != null) {
-                CallButton.Dispose ();
-                CallButton = null;
+            if (callButton != null) {
+                callButton.Dispose ();
+                callButton = null;
             }
 
             if (CallHistoryButton != null) {

@@ -35,16 +35,16 @@ namespace Phoneword_iOS
 
 				if (translatedNumber == "")
 				{
-					CallButton.SetTitle("Call ", UIControlState.Normal);
-					CallButton.Enabled = false;
+					callButton.SetTitle("Call ", UIControlState.Normal);
+					callButton.Enabled = false;
 				}
 				else {
-					CallButton.SetTitle("Call " + translatedNumber, UIControlState.Normal);
-					CallButton.Enabled = true;
+					callButton.SetTitle("Call " + translatedNumber, UIControlState.Normal);
+					callButton.Enabled = true;
 				}
 			};
 
-			CallButton.TouchUpInside += (object sender, EventArgs e) =>
+			callButton.TouchUpInside += (object sender, EventArgs e) =>
 			{
 				// Use URL handler with tel: prefix to invoke Apple's Phone app...
 				var url = new NSUrl("tel:" + translatedNumber);
